@@ -1,0 +1,25 @@
+@import "@/assets/styles/mixins";
+.card {
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid rgb(208, 215, 222);
+  @include smallMobileMedia {
+    background-color: #fff;
+
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12px;
+    .url {
+      font-size: 16px;
+      font-weight: 500;
+      color: rgb(9, 105, 218);
+    }
+  }
+}

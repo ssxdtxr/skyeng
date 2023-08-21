@@ -1,0 +1,5 @@
+@mixin smallMobileMedia() {
+  @media screen and (max-width: 390px) {
+    @content
+  }
+}
